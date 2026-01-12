@@ -115,7 +115,7 @@ The context window includes the system prompt (instructions that define how the 
 
 The critical thing to understand is that AI has no memory between conversations unless the tool specifically implements memory features. When you start a new chat, the AI knows nothing about your previous conversations. It only knows what's in the current context window. This trips up a lot of people who expect the AI to "remember" something from last week.
 
-Context limits are measured in tokens. [2026-CHECK: Current context windows - verify these figures]
+Context limits are measured in tokens.
 
 | Model Family | Approximate Context Window |
 |--------------|---------------------------|
@@ -150,8 +150,6 @@ The practical application is simple: before hitting send, ask yourself "what wou
 Now that you understand tokens, pricing makes sense. You pay for tokens in and tokens out. Think of it like electricity billing: you pay for usage.
 
 AI APIs charge per token, separately for input tokens (what you send to the model) and output tokens (what the model generates). Output tokens are typically 2-4x more expensive than input tokens because generation is computationally more expensive than reading.
-
-[2026-CHECK: Verify current pricing - API costs have decreased significantly since 2024]
 
 As a rough guide, interaction-level costs for a typical exchange (few hundred words in, thousand words out) range from fractions of a cent to a few cents depending on the model. Individual interactions are cheap. Volume adds up.
 
@@ -214,8 +212,6 @@ If you're new to AI, here's practical guidance:
 **For image generation:** Midjourney, DALL-E, or Stable Diffusion depending on your use case and budget. This is a separate skill tree from text AI.
 
 **The main point:** Don't overthink tool selection when starting. The principles in this guide apply across all major AI tools. Learn the fundamentals with any good tool, then optimize tool selection later based on your specific needs.
-
-[2026-CHECK: Verify current tool recommendations are still accurate]
 
 ---
 

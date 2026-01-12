@@ -561,7 +561,6 @@ If you run this often, a simple script is worth the setup.
 
 ```python
 # Pseudocode - adapt to your preferred language/SDK
-# [2026-CHECK: verify current Anthropic SDK patterns]
 
 import anthropic
 
@@ -569,7 +568,7 @@ client = anthropic.Client()
 
 def run_persona(persona_prompt, input_text):
     response = client.messages.create(
-        model="claude-sonnet-4-20250514",  # [2026-CHECK: current model ID]
+        model="claude-sonnet-4-20250514",
         max_tokens=2000,
         messages=[{
             "role": "user",
@@ -598,8 +597,6 @@ for name, prompt in personas.items():
 **Isolation:** True isolation (separate API calls)
 
 ### Option 3: Claude Code with Task Tool
-
-[2026-CHECK: Verify Task tool still exists and works as described below]
 
 Claude Code can orchestrate this with true isolation via the Task tool:
 

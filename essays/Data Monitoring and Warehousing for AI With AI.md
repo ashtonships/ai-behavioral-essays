@@ -2156,7 +2156,6 @@ cost_structure:
     total: ~$50/month typical
 
   processing:
-    # [2026-CHECK: Verify current pricing at anthropic.com/pricing]
     model_costs:
       - haiku: lowest tier
       - sonnet: mid tier

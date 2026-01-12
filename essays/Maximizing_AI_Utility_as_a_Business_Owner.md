@@ -152,10 +152,7 @@ If you can't evaluate the output, you probably shouldn't be using AI for that ta
 **Models are unique with unique characteristics.** You don't have to use every model to understand its quirks, but the more you do, the better you'll get.
 
 **Resources to understand model differences:**
-- [designarena.ai](https://www.designarena.ai/) – LLM model performance for design (websites, images, 3D, etc.) [2026-CHECK: verify still active]
-- [lmarena.ai](https://lmarena.ai/) – Test prompts against models concurrently [2026-CHECK: verify still active]
-- [nof1.ai](https://nof1.ai/) – Models compete in trading competitions [2026-CHECK: verify still active]
-
+- [designarena.ai](https://www.designarena.ai/) – LLM model performance for design (websites, images, 3D, etc.)- [lmarena.ai](https://lmarena.ai/) – Test prompts against models concurrently- [nof1.ai](https://nof1.ai/) – Models compete in trading competitions
 **General model tendencies** (as of 2026):
 - **Claude models (Claude 4.5 family):** Better for "real world work," writing, nuanced reasoning, following complex instructions, agentic tasks
 - **GPT models (GPT-5 family):** Better for math, research, structured data tasks, function calling
@@ -167,7 +164,7 @@ This comes down to how these models approach problems and what patterns they pre
 **You should AT MINIMUM do the following:**
 
 For whatever model you're using, read the provider's prompting guide:
-- **Anthropic Prompt Engineering:** [docs.anthropic.com/en/docs/build-with-claude/prompt-engineering](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering)
+- **Anthropic Prompt Engineering:** [docs.claude.com/en/docs/build-with-claude/prompt-engineering](https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview)
 - **OpenAI Prompt Engineering:** [platform.openai.com/docs/guides/prompt-engineering](https://platform.openai.com/docs/guides/prompt-engineering)
 
 This can greatly improve any inputs you make to AI, even in the simplest forms.
@@ -637,7 +634,6 @@ Understanding costs is essential for sustainable AI adoption. Here's how to thin
 
 ### Token Costs and Pricing (2026 Landscape)
 
-[2026-CHECK: Verify current pricing - these are directional]
 
 API pricing has decreased significantly since 2024, but tokens still cost money. The basic math:
 - **Input tokens:** What you send to the model
@@ -867,12 +863,9 @@ That means:
 ## Resources
 
 ### Model Comparison and Testing
-- [designarena.ai](https://www.designarena.ai/) – LLM model performance for design [2026-CHECK]
-- [lmarena.ai](https://lmarena.ai/) – Test prompts against models concurrently [2026-CHECK]
-- [nof1.ai](https://nof1.ai/) – Models compete in trading competitions [2026-CHECK]
-
+- [designarena.ai](https://www.designarena.ai/) – LLM model performance for design- [lmarena.ai](https://lmarena.ai/) – Test prompts against models concurrently- [nof1.ai](https://nof1.ai/) – Models compete in trading competitions
 ### Prompting Guides
-- [Anthropic Prompt Engineering](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering) – Official Claude documentation
+- [Anthropic Prompt Engineering](https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview) – Official Claude documentation
 - [OpenAI Prompt Engineering](https://platform.openai.com/docs/guides/prompt-engineering) – Official GPT documentation
 
 ### Tools (2026)
@@ -882,8 +875,7 @@ That means:
 - **AI Studio (Google):** [aistudio.google.com](https://aistudio.google.com/) – Gemini access, large context windows
 - **Midjourney:** [midjourney.com](https://www.midjourney.com/) – Image generation
 - **Cursor** – AI-integrated IDE for coding
-- **Flux** – Image generation (open weights) [2026-CHECK: verify current status]
-
+- **Flux** – Image generation (open weights)
 ---
 
 ## Related Essays
