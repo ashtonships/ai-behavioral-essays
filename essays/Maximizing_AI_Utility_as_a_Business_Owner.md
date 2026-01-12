@@ -152,7 +152,10 @@ If you can't evaluate the output, you probably shouldn't be using AI for that ta
 **Models are unique with unique characteristics.** You don't have to use every model to understand its quirks, but the more you do, the better you'll get.
 
 **Resources to understand model differences:**
-- [designarena.ai](https://www.designarena.ai/) – LLM model performance for design (websites, images, 3D, etc.)- [lmarena.ai](https://lmarena.ai/) – Test prompts against models concurrently- [nof1.ai](https://nof1.ai/) – Models compete in trading competitions
+- [designarena.ai](https://www.designarena.ai/) – LLM model performance for design (websites, images, 3D, etc.)
+- [lmarena.ai](https://lmarena.ai/) – Test prompts against models concurrently
+- [nof1.ai](https://nof1.ai/) – Models compete in trading competitions
+
 **General model tendencies** (as of 2026):
 - **Claude models (Claude 4.5 family):** Better for "real world work," writing, nuanced reasoning, following complex instructions, agentic tasks
 - **GPT models (GPT-5 family):** Better for math, research, structured data tasks, function calling
@@ -810,7 +813,7 @@ This is autonomous loop pattern: instead of one prompt → one response, you get
 
 **3. Long-context reliability (100k+ token windows)**
 - Models can reliably reference and reason over entire codebases, document sets, or conversation histories
-- The "lost in the middle" problem is largely solved for production use
+- The "lost in the middle" problem has improved significantly; performance varies by model and task
 
 ### Coming Soon (Watch Closely)
 
@@ -863,7 +866,10 @@ That means:
 ## Resources
 
 ### Model Comparison and Testing
-- [designarena.ai](https://www.designarena.ai/) – LLM model performance for design- [lmarena.ai](https://lmarena.ai/) – Test prompts against models concurrently- [nof1.ai](https://nof1.ai/) – Models compete in trading competitions
+- [designarena.ai](https://www.designarena.ai/) – LLM model performance for design
+- [lmarena.ai](https://lmarena.ai/) – Test prompts against models concurrently
+- [nof1.ai](https://nof1.ai/) – Models compete in trading competitions
+
 ### Prompting Guides
 - [Anthropic Prompt Engineering](https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview) – Official Claude documentation
 - [OpenAI Prompt Engineering](https://platform.openai.com/docs/guides/prompt-engineering) – Official GPT documentation

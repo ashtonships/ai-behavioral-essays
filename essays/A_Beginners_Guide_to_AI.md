@@ -119,9 +119,11 @@ Context limits are measured in tokens.
 
 | Model Family | Approximate Context Window |
 |--------------|---------------------------|
-| Claude 4.5 family | 200,000+ tokens |
-| GPT-5 family | 128,000+ tokens |
-| Gemini 2.x | 1,000,000+ tokens |
+| Claude 4.5 family | 200,000+ tokens ([docs](https://docs.anthropic.com/en/docs/about-claude/models)) |
+| GPT-5 family | 128,000+ tokens ([docs](https://platform.openai.com/docs/models)) |
+| Gemini 2.x | 1,000,000+ tokens ([docs](https://ai.google.dev/gemini-api/docs/models)) |
+
+*Note: Context windows vary by specific model and may change. Always check vendor documentation for current limits.*
 
 When your conversation exceeds the context limit, old messages start getting "forgotten" (dropped from context). Long conversations can cause earlier details to fade even before hitting hard limits due to how attention mechanisms work.
 
