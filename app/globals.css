@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-zinc-950 text-zinc-100 antialiased;
+  }
+}
+
+@layer components {
+  .prose-custom {
+    @apply prose prose-invert prose-zinc max-w-none;
+    @apply prose-headings:font-semibold prose-headings:tracking-tight;
+    @apply prose-h1:text-3xl prose-h1:mb-4;
+    @apply prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4;
+    @apply prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3;
+    @apply prose-h4:text-lg prose-h4:mt-6 prose-h4:mb-2;
+    @apply prose-p:text-zinc-300 prose-p:leading-relaxed;
+    @apply prose-a:text-zinc-100 prose-a:underline prose-a:underline-offset-4 prose-a:decoration-zinc-600 hover:prose-a:decoration-zinc-400;
+    @apply prose-strong:text-zinc-100 prose-strong:font-semibold;
+    @apply prose-em:text-zinc-300;
+    @apply prose-code:text-zinc-200 prose-code:bg-zinc-800 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-code:text-sm prose-code:before:content-none prose-code:after:content-none;
+    @apply prose-pre:bg-zinc-900 prose-pre:border prose-pre:border-zinc-800 prose-pre:rounded-lg;
+    @apply prose-blockquote:border-zinc-700 prose-blockquote:text-zinc-400 prose-blockquote:not-italic;
+    @apply prose-ul:text-zinc-300 prose-ol:text-zinc-300;
+    @apply prose-li:marker:text-zinc-600;
+    @apply prose-hr:border-zinc-800;
+    @apply prose-table:text-sm;
+    @apply prose-th:text-zinc-200 prose-th:font-semibold prose-th:border-zinc-700;
+    @apply prose-td:border-zinc-800 prose-td:text-zinc-300;
+  }
+}
